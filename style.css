@@ -1,0 +1,56 @@
+body{font-family:monospace;color:#24b9c9; background-color:#0a0019;
+background: url("bg.gif") no-repeat center center fixed;
+                background-size: cover;
+                -moz-background-size: cover;
+                -webkit-background-size: cover;}
+
+		a:link, a:visited, a active {
+		    color: #ff0088;
+		    background-color: transparent;
+		    text-decoration: none;
+				}
+
+	
+		a:hover {
+		    color: #ee44ff;
+		    background-color: transparent;
+		    text-decoration: underline;
+		        }
+		
+ #gif { 
+ 
+ 	border: 4px solid #210215;	    
+	border-radius:4px;    
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+    opacity:1;
+    
+    			  }
+audio { width: 592px}
+#radio
+			{
+					
+				background: rgba(0,4,24,0.87);				
+				padding-left: 4px;
+				padding-right: 4px;
+				padding-top:4px;
+				padding-bottom:2px;
+				border-radius:4px;
+			}
+
+			
+#content
+			{
+				width: 600px;
+				background: rgba(38,38,38,0.92);
+				margin-left:8%;
+				margin-top: 3%;
+				float: left;
+				padding-left: 15px;
+				padding-right:15px;
+				border-radius: 15px;
+			
+			}
