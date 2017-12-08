@@ -1,0 +1,23 @@
+profile = opengl-hq
+
+screenshot-template='~/i/screencaps/%F (%P) %n'
+slang=enm, en, eng, it, ja, jp
+ialang=ja,jp,jpn,en,eng,it
+
+vo=opengl
+tscale=oversample
+opengl-early-flush=no
+opengl-pbo=yes
+sigmoid-slope=10
+
+sub-auto=fuzzy 				# external subs don't have to match the file name to autoload
+sub-file-paths-append=ass 		# search for hsubs in these subdirectories
+sub-file-paths-append=sry
+sub-file-paths-append=sub
+sub-file-paths-append=subs
+sub-file-paths-append=subtitles
+
+
+audio-file-auto=fuzzy
+volume-max=200
+volume=75 				# default volume

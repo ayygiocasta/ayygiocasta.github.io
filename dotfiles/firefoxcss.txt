@@ -1,0 +1,423 @@
+/* original CSS by noha-ra, i just edited some things to fit my windows rice, i have no idea about how it might look in a fresh windows install */
+
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+                scrollbarbutton[sbattr="scrollbar-up-top"],
+                scrollbarbutton[sbattr="scrollbar-down-top"],
+                scrollbarbutton[sbattr="scrollbar-up-bottom"],
+                scrollbarbutton[sbattr="scrollbar-down-bottom"] {
+                    -moz-appearance: none !important;
+                    display: none !important;
+                }
+                scrollbar[orient="vertical"] {
+                    -moz-margin-start: -15px;
+                    min-width: 15px!important;
+                    max-width: 15px!important;
+                    -moz-appearance: none!important;
+                    position: relative;
+                    background-color: transparent!important;
+                    background-image: none!important;
+                    border: 0;
+                    z-index: 2147483647;
+                    -moz-box-align: start;
+                    padding:1px 0px 1px 6px!important;
+                }
+                scrollbar[orient="horizontal"] {
+                    margin-top: -15px;
+                    min-height: 15px;
+                    max-height: 15px;
+                    -moz-appearance: none!important;
+                    position: relative;
+                    background-color: transparent;
+                    background-image: none;
+                    border: 0;
+                    z-index: 2147483647;
+                    -moz-box-align: start;
+                    padding:6px 0px 0px 0px!important;
+                }
+                scrollbar thumb {
+                    -moz-appearance: none !important;
+                    background-color: rgba(80,80,80,0.5);
+                    border-radius: 0px;
+                    border: 0;
+                }
+                scrollbar[orient="vertical"] thumb {
+                    min-height: 20px!important;
+                    min-width: 15px!important;
+                    max-width: 15px!important;
+                }
+                scrollbar[orient="horizontal"] thumb {
+                    min-width: 20px!important;
+                    min-height: 15px!important;
+                    max-height: 15px!important;
+
+                }
+                scrollbar thumb:hover, scrollbar thumb:active {
+                    background-color: rgba(0,0,0,0.5);
+                }
+                html div scrollbar {
+                    -moz-margin-start: 0!important;
+                }
+                * {
+                    font-family: "Roboto", "ぼくたちのゴシック２ボールド" !important;
+                }
+                html {
+                    overflow: auto;
+                }
+                /*remove internal border*/
+
+                #main-window:not([chromehidden*="toolbar"])[sizemode="normal"] {
+                    margin-top: -6px!important;
+                    margin-left: -1px!important;
+                    margin-right: -2px!important;
+                    margin-bottom: -1px !important;
+                    z-index: 99999 !important;
+                }
+                #main-window:not([chromehidden*="toolbar"])[sizemode="maximized"] {
+                    margin-top: 4px!important;
+                    margin-left: -11px!important;
+                    margin-right: -1px!important;
+                    margin-bottom: -1px !important;
+                }
+                #main-window:not([chromehidden*="toolbar"])[sizemode="fullscreen"] {
+                    margin-right: -1px!important;
+                    margin-left: -1px !important;
+                }
+                .tabs-newtab-button:hover {
+                    display: none !important;
+                }
+                /*comment these lines to have normal tab width*/
+
+                .tabbrowser-tabs:not([drag=detach]) > .tabbrowser-tab:not([pinned])[fadein] {
+                    min-width: 10px !important;
+                    max-width: 260px !important;
+                }
+                /*comment above to have normal tab width*/
+                /* removes ugly cloud thing */
+
+                #TabsToolbar:not(:-moz-lwtheme)::after {
+                    display: none;
+                }
+                /* Remove the following line if you want the text color of unselected tabs to be black (Firefox default) */
+
+                #TabsToolbar .tabbrowser-tab:not([selected]) {
+                    color: rgba(255, 255, 255, 0.9);
+                }
+                #TabsToolbar {
+                    background: transparent !important;
+                    margin-bottom: 0 !important;
+                }
+                #TabsToolbar .tabbrowser-tabs {
+                    height: 50px !important;
+                    margin-top: -7px !important;
+                    margin-bottom: -1px !important;
+                    text-align: center !important;
+                    margin-left: -9px !important;
+                    margin-right: -17px !important;
+                }
+                #tabbrowser-tabs tab .tab-close-button {
+                    color: #444 !important;
+                    height: 0px !important;
+                    width: 0px !important;
+                    background: url('http://imgur.com/4GlrMN7.png') no-repeat 50% 50%;
+                    padding: 10px 0 0 10px !important;
+                    background-size: 20px auto !important;
+                    opacity: .7 !important;
+                }
+                #tabbrowser-tabs tab .tab-close-button:hover {
+                    background: url("http://i.imgur.com/tssw3Nx.png") no-repeat 50% 50% !important;
+                    padding: 10px 0 0 10px !important;
+                    background-size: 20px auto !important;
+                }
+                .tabbrowser-tab:not([pinned]) .tab-icon-image {
+                    display: none !important;
+                }
+                #TabsToolbar {
+                    background-color: #444;
+                }
+                #TabsToolbar .tabbrowser-tab {
+                    -moz-border-top-colors: none !important;
+                    -moz-border-left-colors: none !important;
+                    -moz-border-right-colors: none !important;
+                    -moz-border-bottom-colors: none !important;
+                    border-style: solid !important;
+                    border-width: 0px 0px 0px 0px !important;
+                    text-shadow: 0 0 4px rgba(80, 80, 80, .2) !important;
+                    padding: 4px 0px !important;
+                    border-radius: 0px !important;
+                    background: #F0F0F0 !important;
+                    background-clip: padding-box !important;
+                    transition: all 0.3s ease-in-out;
+                    margin-left: 0px !important;
+                    color: #7E7E7E !important;
+                    font-family: 'Roboto' !important;
+                    font-size: 13px !important;
+                    border-color: #C8C8C8 !important;
+                    padding-top: 15px !important;
+                    padding-bottom: 15px !important;
+                    padding-left: 10px !important;
+                    padding-right: 10px !important;
+                }
+                #TabsToolbar .tabbrowser-tab[last-visible-tab] {
+                    border-top-right-radius: 0px !important;
+                    border-right-width: 0px !important;
+                    margin-right: 2px !important;
+                    border-right-color: rgba(0, 0, 0, 0) !important;
+                }
+                #TabsToolbar .tabbrowser-tab[first-visible-tab] {
+                    border-top-right-radius: 0px !important;
+                    /*border-bottom-left-radius: 3px !important;*/
+
+                    border-left-width: 0px !important;
+                    margin-left: 2px !important;
+                    border-left-color: rgba(0, 0, 0, 0) !important;
+                }
+                #TabsToolbar .tabbrowser-tab[selected] {
+                    color: rgba(90, 90, 90, 1) !important;
+                    background: #FFF !important;
+                    padding-top: 15px !important;
+                    transition: all 0.3s ease-in-out;
+                }
+                #TabsToolbar .tabbrowser-tab:hover:not([selected]) {
+                    border-color: rgba(0, 0, 0, 0) !important;
+                    transition: all 0.3s ease-in-out;
+                }
+                #TabsToolbar .tab-background {
+                    margin: 0 !important;
+                    background: transparent !important;
+                }
+                #TabsToolbar .tab-background-start,
+                #TabsToolbar .tab-background-end {
+                    display: none !important;
+                }
+                #TabsToolbar .tab-background-middle {
+                    margin: -4px -2px !important;
+                    background: transparent !important;
+                }
+                #TabsToolbar .tabbrowser-tab:after,
+                #TabsToolbar .tabbrowser-tab:before {
+                    display: none !important;
+                }
+                #TabsToolbar .tabs-newtab-button {
+                    border-width: 1px 10px 0 10px !important;
+                    margin: 1px !important;
+                    margin-left: -2px !important;
+                    width: 20px !important;
+                    padding: 5px 15px !important;
+                    color: #444 !important;
+                    position: absolute !important;
+                    margin-top: 4px !important;
+                    background-color: #FFF !important;
+                    opacity: 0;
+                }
+                #TabsToolbar .tabs-newtab-button:hover {
+                    opacity: 1 !important;
+                }
+                /* speaker  icon */
+                .tab-icon-sound, .tab-icon-overlay {
+                    list-style-image: url('https://upload.wikimedia.org/wikipedia/commons/2/21/Speaker_Icon.svg') !important;
+                    opacity: 0.8 !important;
+                    display: none !important;
+                }
+                .tab-icon-sound[muted="true"] {
+                    list-style-image: url('https://puu.sh/leWAi/54c36b6e52.png') !important;
+                    opacity: 0.8 !important;
+                    display: none;
+                }
+
+                #addon-bar,
+                #PersonalToolbar,
+                #nav-bar {
+                    background: #EAF2FA !important;
+                    box-shadow: none !important;
+                    background-clip: padding-box !important;
+                    border-color: rgba(0, 0, 0, .25) !important;
+                    border-radius: 0 !important;
+                }
+                .subviewbutton.panel-subview-footer {
+                    padding-top: 6px !important;
+                    padding-bottom: 6px !important;
+                }
+                /* URL BAR */
+                /* remove back/fwd */
+                #nav-bar #back-button > .toolbarbutton-icon {
+                    width: 0px;
+                    height: 0px;
+                    border:none !important;
+                    background: url("http://i.imgur.com/tONrOjq.png") !important;
+                    background-repeat: no-repeat !important;
+                    background-size: 30px auto !important;
+                    background-position: center center !important;
+                    padding: 30px 0px 0px 15px !important;
+                    margin-left: -4px;
+                    margin-top: 0px;
+                }
+                #forward-button {
+                    width: 0px;
+                    height: 0px;
+                    border:none;
+                    background: url("http://i.imgur.com/fAZe280.png") !important;
+                    background-repeat: no-repeat !important;
+                    background-size: 30px auto !important;
+                    background-position: center center !important;
+                    padding: 30px 0px 0px 15px !important; 
+                    margin-left: 10px;
+                    margin-right: -7px;
+                    margin-top: 1px;
+                }
+                #back-button:hover,
+                #forward-button:hover,
+                #forward-button:focus,
+                #back-button:focus {
+                    border: none !important;
+                    opacity: .6 !important;
+                }
+                /*styling*/
+
+                #searchbar > .searchbar-textbox,
+                #urlbar {
+                    font-family: Roboto !important;
+                    border: 1px solid rgb(255, 255, 255) !important;
+                    background: #FFF !important;
+                    margin-top: 0px !important;
+                    margin-left: 10px !important;
+                    border-radius: 0px;
+                    padding: 0px !important;
+                    color: rgb(130, 130, 130) !important;
+                    height: 22px;
+                    font-stretch: condensed !important;
+                    text-align: center;
+                }
+                #nav-bar {
+                    height: 40px;
+                    background-color: rgba(255, 255, 255, 1) !important;
+                    border-bottom: 0px solid #FFF !important;
+                    border-top: 0px solid #FFF !important;
+                    margin-bottom: -1px !important;
+                    margin-top: 1px !important;
+                    border-left: none !important;
+                    border-right: none !important;
+                    margin-right: 1px !important;
+                    margin-left: -2px !important
+                }
+                #PanelUI-button,
+                #customization-panel-container,
+                #customization-panelWrapper .panel-arrow,
+                #ctr_panelui-button,
+                #wrapper-ctr_panelui-button {
+                    -moz-box-ordinal-group: 0;
+                    margin-top: 2px !important;
+                }
+                #PanelUI-button {
+                    background-position: 100% 0, calc(100% - 1px) 0, calc(100% - 2px) 0;
+                    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/VisualEditor_-_Icon_-_Menu.svg/2000px-VisualEditor_-_Icon_-_Menu.svg.png') !important;
+                    background-size: 20px auto !important;
+                    background-repeat: no-repeat !important;
+                    background-position: center !important;
+                    box-shadow: none !important;
+                    width: 5px !important;
+                    /*display: none !important; /*COMMENT THIS LINE FOR A MENU BUTTON*/
+                }
+                #PanelUI-button .button-icon,
+                #PanelUI-button .button-text {
+                    display: none !important;
+                }
+                #PanelUI-menu-button {
+                    opacity: 0 !important;
+                    width: 8px !important;
+                    margin-right: 5px !important;
+                    margin-top: 10px !important;
+                }
+                #identity-box,
+                #dropmarker-icon,
+                #historydropmarker,
+                #autocomplete-history-dropmarker,
+                #urlbar-history-dropmarker,
+                #dropmarker {
+                    display: none !important;
+                }
+                #autocomplete-history-dropmarker,
+                #urlbar-history-dropmarker,
+                #urlbar-reload-button {
+                    display: none !important;
+                }
+                .autocomplete-history-dropmarker.urlbar-history-dropmarker {
+                    display: none !important;
+                }
+                #plugins-notification-icon,
+                #notification-anchor-icon,
+                #notification-popup-box {
+                    display: none !important;
+                }
+                /* remove tab scrolling */
+
+                .scrollbutton-up,
+                .scrollbutton-down,
+                #alltabs-button {
+                    display: none !important;
+                }
+                #downloads-button {
+                    background: url('http://i.imgur.com/naGokm2.png') !important;
+                    background-size: 30px auto !important;
+                    background-repeat: no-repeat  !important;
+                    background-position: center !important;
+                    opacity: 1 !important;
+                    margin-left: 0px !important;
+                    margin-right: 1px !important;
+                    box-shadow: none !important;
+                    width: 10px !important;
+                    padding: 0px 10px 0px 5px !important; 
+                    margin-top: 0px !important;
+                    background-color: #FFF !important;
+                }
+                #toolbarbutton-icon .Downloads,
+                #downloads-indicator-icon,
+                #downloads-indicator-progress-area,
+                #downloads-button .button-text {
+                    visibility: hidden;
+                }
+                .toolbarbutton-menubutton-dropmarker {
+                    display: none !important;
+                }
+                #bookmarks-menu-button {
+                    background: url("http://i.imgur.com/nw90DUQ.png") !important;
+                    background-position: center center !important;
+                    background-size: 30px auto !important;
+                    background-repeat: no-repeat !important;
+                    visibility: visible !important;
+                    margin-top: 1px !important;
+                    opacity: .6;
+                    background-color: #FFF !important;
+                    padding: 0px 10px 0px 5px !important; 
+                    margin-top: -1px !important;
+                }
+                #downloads-indicator-anchor {
+                    opacity: 0 !important;
+                }
+                #reader-mode-button, #bookmarks-menu-button, #PanelUI-button {
+                     list-style-image: none !important;
+                }
+                menu.bookmark-item:not([query]):not([label="Bookmarks Toolbar"]), menuitem.bookmark-item, menu.bookmark-item:not([query]):not([label="Bookmarks Toolbar"])[open] { 
+                    list-style-image: url("https://puu.sh/leYZ9/1769a4b8b7.ico") !important;
+                    -moz-image-region: rect(0 32px 32px 0) !important;
+                }
+                #home-button .toolbarbutton-icon {
+                    width: 0px;
+                    height: 0px;
+                    background: url("http://i.imgur.com/TFiwfsU.png") !important;
+                    background-position: center center !important;
+                    background-size: 23px auto !important;
+                    background-repeat: no-repeat !important;
+                    visibility: visible !important;
+                    margin-top: 1px !important;      
+                    opacity: .6;
+                    padding: 20px 10px 0px 35px !important; 
+                    visibility: visible !important;
+                }
+                #home-button .toolbarbutton-icon:hover {
+                    opacity: 1 !important;
+                }
+                /* AGENT_SHEET */
+                scrollbar {
+                    -moz-appearance: none !important;
+                    background: rgba(0,0,0,.000001) !important;
+                }

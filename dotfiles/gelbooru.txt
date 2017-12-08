@@ -1,0 +1,85 @@
+@-moz-document regexp("(http|https)://(gelbooru).(com)/.*") 
+    {
+    div#note-container
+        {
+              color:#000000 !important; 
+        }
+/* Main bg and text color, image borders */
+    body
+        {    
+            background: #121212 !important; 
+            color:#FFFFFF !important;
+        }
+
+
+    table,table.form th
+        {
+            color:#AAAAAA !important;
+        }
+
+    .thumbnail-preview
+        {
+            background: #000000 !important;
+            padding:0px !important;
+            border: 3px solid #212121 !important;
+        }
+
+    div.header,.navbar
+        {
+            background: #212121 !important;
+        }
+
+/* Navigation bar */
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus,li.current-page a
+        {
+            background:#121212 !important;
+            color: #9932cc !important;
+        }
+/* Search bar/button */
+    input,textarea
+        {
+            background-color:#000000 !important;
+            color:#F9F9F9 !important;
+        }
+
+    .secondary_search
+        {
+            background-color:#222222 !important;
+        }
+
+    input.search_list
+        {
+            border: 1px solid #212121 !important;
+        }
+
+/* Tags */
+    #submenu
+        {
+            background:#121212 !important;
+        }
+
+        .tag-type-copyright > a
+        {
+            color:#CC00FF;
+        }
+
+        .tag-type-character > a
+        {
+            color:#01CC01;
+        }
+
+        .tag-type-artist > a
+        {
+            color:#DD0303;
+        }
+
+    a
+        {
+            color: #00AAFF;
+        }
+
+    ul#tag-list
+        {
+            border-right: 1px solid #222222;
+        }
+}
