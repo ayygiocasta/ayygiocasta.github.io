@@ -13,14 +13,11 @@ set number
 " highlights matching braces 
 set showmatch
 
-" intelligent comments
-set comments=s1:/*,mb:\ *,elx:\ */
-
-
-nnoremap w k
-nnoremap s j
-nnoremap a h
-nnoremap d l
+nnoremap w b
+nnoremap n k
+nnoremap b j
+nnoremap v h
+nnoremap m l
 
 " saves with F2
 nmap <F2> :w<CR>
