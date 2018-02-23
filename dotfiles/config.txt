@@ -139,8 +139,10 @@ background #0f0a13
         position top
 }
 
-#sets wallpaper
-exec_always feh --bg-scale ~/i/wallpaper.jpg
+
+# outdated since i use pywal now
+#exec_always feh --bg-scale ~/i/wallpaper.jpg
+
 
 assign [class="firefox"] $1
 assign [class="urxvt"] $2
@@ -149,8 +151,10 @@ assign [class="urxvt"] $2
 ## sets border width
 for_window[class="^.*"] border pixel 5
 for_window[class="^.*"] border color white
+
+
 ## you can also set your borders to 0px and uncomment this to get a 5px border only on the top side
-#font pango:Inconsolata 0
+# font pango:Inconsolata 0
 
 
 ##				border colors
