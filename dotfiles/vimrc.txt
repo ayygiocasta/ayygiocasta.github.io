@@ -1,5 +1,6 @@
 set nocompatible
 syntax on
+filetype plugin indent on
 
 " 256 colors the dream
 set t_Co=256
@@ -7,6 +8,9 @@ set t_Co=256
 " highlight stuff over the 80th column
 highlight OverLength  ctermbg=red ctermfg=white guibg=#595959
 match OverLength /\%81v.\+/
+
+" pathogen 
+execute pathogen#infect()
 
 " indenting
 set autoindent
