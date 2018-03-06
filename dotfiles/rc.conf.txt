@@ -1,5 +1,5 @@
 set viewmode miller
-set column_ratios 2,3,4
+set column_ratios 3,4
 set hidden_filter ^\.|\.(?:pyc|pyo|bak|swp)$|^lost\+found$|^__(py)?cache__$
 set show_hidden false
 set preview_files true
