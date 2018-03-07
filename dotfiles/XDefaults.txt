@@ -1,0 +1,6 @@
+urxvt*font: xft:Profont:pixelsize=14:antialias=false,\
+           xft:Kochi Gothic:antialias=false,\
+            xft:Baekmuk Gulim:antialias=false
+
+
+URxvt*boldFont:
