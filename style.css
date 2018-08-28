@@ -63,3 +63,31 @@ audio { width: 592px}
 				border-radius: 15px;
 			
 			}
+			
+			
+			
+			
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ff0088;
+    float: center;
+    width: 188px;
+	heigth: 148px;
+
+}
+
+div.gallery:hover {
+    border: 1px solid #FFB6C1;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 6px;
+    text-align: center;
+}	
+		
+
