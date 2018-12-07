@@ -30,6 +30,7 @@ background: url("img/bg.gif") no-repeat center center fixed;
  	border: 4px solid #210215;	    
 	border-radius:4px;    
 }
+
 h1, h2, h3, h4, h5, h6, p {
     margin-top: 0;
     padding-right: 15px;
@@ -63,13 +64,80 @@ audio { width: 592px}
 				border-radius: 15px;
 			
 			}
+@media (min-width: 1686px) {
+ 
+
+#sidepanel
+			{
+				position: fixed;
+				left: 38%;
+				width: 500px;
+				background: rgba(38,38,38,0.92);
+				margin-left:8%;
+				margin-top: 3%;
+				float: left;
+				padding-left: 15px;
+				padding-right:15px;
+				border-radius: 15px;
 			
+			}	
+
+#sidepanel2
+			{
+				position: fixed;
+				left: 35%;
+				width: 500px;
+				background: rgba(38,38,38,0.92);
+				margin-left:8%;
+				margin-top: 12%;
+				float: left;
+				padding-left: 15px;
+				padding-right:15px;
+				border-radius: 15px;
+			
+			}	
+}	
+
+
+@media (max-width: 1686px) {
+ 
+
+#sidepanel
+			{
+				position: bottom;
+				left: 38%;
+				width: 500px;
+				background: rgba(38,38,38,0.92);
+				margin-left:8%;
+				margin-top: 3%;
+				float: left;
+				padding-left: 15px;
+				padding-right:15px;
+				border-radius: 15px;
+			
+			}	
+
+#sidepanel2
+			{
+				position: bottom;
+				left: 35%;
+				width: 500px;
+				background: rgba(38,38,38,0.92);
+				margin-left:8%;
+				margin-top: 12%;
+				float: left;
+				padding-left: 15px;
+				padding-right:15px;
+				border-radius: 15px;
+			
+			}	
+}	
 			
 			
 			
 div.gallery {
     margin: 5px;
-    border: 1px solid #ff0088;
+    border: 1px solid #ff	0088;
     float: center;
     width: 188px;
 	heigth: 148px;
@@ -91,3 +159,11 @@ div.desc {
 }	
 		
 
+#avatar { 
+    
+	float: left;  
+	margin-right:15px;
+	border: 3px solid #f4b9ff;	    
+	border-radius:4px;   
+	margin-left: 10px;
+}
