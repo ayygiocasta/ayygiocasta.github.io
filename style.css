@@ -51,27 +51,12 @@ audio { width: 592px}
 				border-radius:4px;
 			}
 
+					
+			
 			
 #content
 			{
 				width: 600px;
-				background: rgba(38,38,38,0.92);
-				margin-left:8%;
-				margin-top: 3%;
-				float: left;
-				padding-left: 15px;
-				padding-right:15px;
-				border-radius: 15px;
-			
-			}
-@media (min-width: 1686px) {
- 
-
-#sidepanel
-			{
-				position: fixed;
-				left: 38%;
-				width: 500px;
 				background: rgba(38,38,38,0.92);
 				margin-left:8%;
 				margin-top: 2%;
@@ -80,6 +65,21 @@ audio { width: 592px}
 				padding-right:15px;
 				border-radius: 15px;
 			
+			}
+
+ 
+
+#sidepanel
+			{
+				position: relative;
+				width: 500px;
+				background: rgba(38,38,38,0.92);
+				margin-left:2%;
+				margin-top: 2%;
+				float: left;
+				padding-left: 15px;
+				padding-right:15px;
+				border-radius: 15px;
 			}	
 
 #sidepanel2
@@ -89,27 +89,7 @@ audio { width: 592px}
 				width: 500px;
 				background: rgba(38,38,38,0.92);
 				margin-left:8%;
-				margin-top: 12%;
-				float: left;
-				padding-left: 15px;
-				padding-right:15px;
-				border-radius: 15px;
-			
-			}	
-}	
-
-
-@media (max-width: 1686px) {
- 
-
-#sidepanel
-			{
-				position: bottom;
-				left: 38%;
-				width: 500px;
-				background: rgba(38,38,38,0.92);
-				margin-left:8%;
-				margin-top: 3%;
+				margin-top: 1%;
 				float: left;
 				padding-left: 15px;
 				padding-right:15px;
@@ -117,22 +97,8 @@ audio { width: 592px}
 			
 			}	
 
-#sidepanel2
-			{
-				position: bottom;
-				left: 35%;
-				width: 500px;
-				background: rgba(38,38,38,0.92);
-				margin-left:8%;
-				margin-top: 12%;
-				float: left;
-				padding-left: 15px;
-				padding-right:15px;
-				border-radius: 15px;
-			
-			}	
-}	
-			
+
+
 			
 			
 div.gallery {
