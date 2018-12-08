@@ -3,28 +3,38 @@
 		<meta charset="UTF-8"/>
 		<title>ayy</title>		
  <link rel="stylesheet" href="style.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js">
+	</script>	
+	<script>
+		$(function(){
+			$('.fadein img:gt(0)').hide();
+			setInterval(function(){$('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein');}, 3000);
+		});
+	</script>
 		</head>
+	
 <body>
 	<form>
 		<p> 
+		
 		<img src='img/jill.png' class='jill' />
 		<div id="contentparent">
 		<div id="content">
 	<p align="center">	
 	<br><br>
 	<h1>ayy what up fam</h1>
-		<br>
-	<p align="center">	
-		<img src="img/pc.gif" id="gif"></p><br><br>
 		
+	<p align="center">	
+	<img src="img/pc.gif" id="gif">
 		<table>
 		<tr> 
 			<td>
 				<img src="img/avatar.png" id="avatar">
 			</td> 
 			<td>
-			Hello, I'm Jocasta, an italian weeb who enjoys messing with computers, GNU/Linux and tech stuff in general. 
-			I'm currently working as a part-time meme designer, but my ambition in life is to become an anime pediatrician.<br><br>
+			Hello, I'm Jocasta, an italian guy who enjoys messing with computers, GNU/Linux and tech stuff in general. 
+			I'm currently working as a part-time meme designer, but my ambition in life is to become an anime pediatrician.
+			I'm also a degenerate weeb AYAYA Clap<br><br>
 			'aight, enjoy your stay, peace.
 			</td>
 		</table>
@@ -43,25 +53,40 @@
 		-> <a href="gopher://sdf.org/1/users/lolimanko">gopherspace</a><br><br>
 		-> vidya: <a href="https://steamcommunity.com/id/giocasta/">steam</a> / <a href="https://osu.ppy.sh/u/3547370">osu!</a> / b.net > Giocasta#2147 (HS, WoW)<br><br> 
 		
-		hmu &mdash; <a href="mailto:jocasta@waifu.club">jocasta@waifu.club</a><br><br>
-		<br><br><div id="radio">
-		<audio controls width="483" ><source src="http://stream.gensokyoradio.net:8000/stream/1/listen.mp3" type="audio/mp3">If you can't see the music player you may have to update your browser or switch to a different one (palemoon/firefox if you're not a pleb). </audio>
-		</div><br> <p align="center">↑↑↑ <a href="https://gensokyoradio.net/music/">gensokyoradio.net</a> ↑↑↑
-		<br><br>Background gif by <a href="https://kirokaze.deviantart.com/">kirokaze</a>, pettanko bg by <a href="https://www.pixiv.net/member.php?id=6017752">稲荷</a>.</p></div>
-		 
+		hmu &mdash; <a href="mailto:jocasta@waifu.club">jocasta@waifu.club</a><br><br><br>
+		<p align="center" style="color:#24b9c9">
+		Some random photos of my room because why not
+		</p>
+		<div class="fadein"> 
+			<img src="img/login.png" id="gif">
+			<img src="img/room.png" id="gif">
+			<img src="img/miku.png" id="gif">
+			<img src="img/waifu.png" id="gif">
+		</div>
+		
+		<div id="radio">
+			<audio controls width="483" ><source src="http://stream.gensokyoradio.net:8000/stream/1/listen.mp3" type="audio/mp3">If you can't see the music player you may have to update your browser or switch to a different one (palemoon/firefox if you're not a pleb). </audio>
+		</div>
+		<br> 
+		
+		<p align="center">	
+			↑↑↑ <a href="https://gensokyoradio.net/music/">gensokyoradio.net</a> ↑↑↑<br><br>	
+			
+			Background gif by <a href="https://kirokaze.deviantart.com/">kirokaze</a>, pettanko bg by <a href="https://www.pixiv.net/member.php?id=6017752">稲荷</a>.
+		</p><br>
+		
+		
+		</div>
+		<br><br>
 	</form>
-<div id="sidepanel">
-	<br>
-	<img src="img/login.png" id="gif">
-	<br>
-	<img src="img/room.png" id="gif">
-	<br>
-	<img src="img/miku.png" id="gif">
-	<br>
-	<img src="img/waifu.png" id="gif">
-	<br><br>
-	</div>
-	</div>
+	
+
+
+</div> 
+</div>
+	
+
+ 
 </body>	
 
 </html>
