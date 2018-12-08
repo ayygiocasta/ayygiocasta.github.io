@@ -7,7 +7,7 @@ background: url("img/bg.gif") no-repeat center center fixed;
 		a:link, a:visited, a active {
 		    color: #ff0088;
 		    background-color: transparent;
-		    text-decoration: none;
+		    text-decoration: underline;
 				}
 
 	
@@ -47,19 +47,25 @@ audio { width: 592px}
 				padding-left: 4px;
 				padding-right: 4px;
 				padding-top:4px;
-				padding-bottom:2px;
+				padding-bottom:1px;
 				border-radius:4px;
 			}
 
-					
+			
+#contentparent
+			{
+				width: 100%;
+			
+			}			
 			
 			
 #content
 			{
 				width: 600px;
 				background: rgba(38,38,38,0.92);
-				margin-left:2%;
+				margin-left:10%;
 				margin-top: 2%;
+				margin-bottom: 2%;
 				float: left;
 				padding-left: 15px;
 				padding-right:15px;
@@ -132,4 +138,26 @@ div.desc {
 	border: 3px solid #f4b9ff;	    
 	border-radius:4px;   
 	margin-left: 10px;
+}
+
+
+.ctan 	{
+	position: center;
+    max-width: 210px;
+    width: 45%;
+    opacity: 1;
+  		}		
+
+		
+.fadein { 
+position:relative; 
+height:332px; 
+width:500px; 
+margin-left: 48px;
+}
+
+.fadein img { 
+position:absolute; 
+left:0px; 
+top:0; 
 }
