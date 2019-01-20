@@ -30,19 +30,19 @@ set expandtab
 " memes
 inoremap linux GNU/Linux
 
-nnoremap <Left> :echo "nice try nigga"<CR>
+nnoremap <Left> :echo "nice try nibba"<CR>
 inoremap <Left> <C-O>:echo "nice try nibba"<CR>
 vnoremap <Left> :<C-u>echo "nice try nibba"<CR>
 
-nnoremap <Right> :echo "nice try nigga"<CR>
+nnoremap <Right> :echo "nice try nibba"<CR>
 inoremap <Right> <C-O>:echo "nice try nibba"<CR>
 vnoremap <Right> :<C-u>echo "nice try nibba"<CR>
 
-nnoremap <Up> :echo "nice try nigga"<CR>
+nnoremap <Up> :echo "nice try nibba"<CR>
 inoremap <Up> <C-O>:echo "nice try nibba"<CR>
 vnoremap <Up> :<C-u>echo "nice try nibba"<CR>
 
-nnoremap <Down> :echo "nice try nigga"<CR>
+nnoremap <Down> :echo "nice try nibba"<CR>
 inoremap <Down> <C-O>:echo "nice try nibba"<CR>
 vnoremap <Down> :<C-u>echo "nice try nibba"<CR>
 
