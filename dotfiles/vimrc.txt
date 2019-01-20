@@ -1,6 +1,12 @@
 set nocompatible
 syntax on
 filetype plugin indent on
+set clipboard=unnamedplus
+set showmatch
+
+set number
+set relativenumber
+
 
 " 256 colors the dream
 set t_Co=256
@@ -19,22 +25,24 @@ set tabstop=3
 set shiftwidth=3
 set expandtab
 
-" row numbers
-set number
 
-" highlights matching braces 
-set showmatch
-
-"saves with F2
-nmap <F2> :w<CR>
-imap <F2> <F2><ESC>:w<CR>i
 
 " memes
 inoremap linux GNU/Linux
 
-" i'll never get used to this
-nnoremap w b
-nnoremap n k
-nnoremap b j
-nnoremap v h
-nnoremap m l
+nnoremap <Left> :echo "nice try nigga"<CR>
+inoremap <Left> <C-O>:echo "nice try nibba"<CR>
+vnoremap <Left> :<C-u>echo "nice try nibba"<CR>
+
+nnoremap <Right> :echo "nice try nigga"<CR>
+inoremap <Right> <C-O>:echo "nice try nibba"<CR>
+vnoremap <Right> :<C-u>echo "nice try nibba"<CR>
+
+nnoremap <Up> :echo "nice try nigga"<CR>
+inoremap <Up> <C-O>:echo "nice try nibba"<CR>
+vnoremap <Up> :<C-u>echo "nice try nibba"<CR>
+
+nnoremap <Down> :echo "nice try nigga"<CR>
+inoremap <Down> <C-O>:echo "nice try nibba"<CR>
+vnoremap <Down> :<C-u>echo "nice try nibba"<CR>
+
