@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+	<head>	
+		<meta charset="UTF-8"/>
+		<title>Gallery</title>		
+ <link rel="stylesheet" href="style.css" type="text/css">
+	<script src="jquery.min.js">
+	</script>	
+	<script>
+		$(function(){
+			$('.fadein img:gt(0)').hide();
+			setInterval(function(){$('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein');}, 3000);
+		});
+	</script>
+		</head>
+	
+<body>
+	<form>
+		<p> 
+		
+		<img src='img/jill.png' class='jill' />
+		<div id="contentparent">
+		<div id="content">
+	<p align="center">	
+	<br><br>
+	<h1>Gallery</h1>
+	<br><br>
+	I recently started drawing, and i obviously draw anime shit because I'm a disgusting weeb degenerate.<br><br>
+	Click to view full size (note that I didn't bother resizing them so they go up to like 6k~ pixels).<br>
+	<br><br><br>
+	<p align="center">
+	<a href="img/gallery/tsubaki.png">
+	<img src="img/gallery/tsubaki.png" id="gallerypics"></a>
+	
+	<a href="img/gallery/corrected.png">
+	<img src="img/gallery/corrected.png" id="gallerypics"></a><br><br>
+	
+	<a href="img/gallery/evacropped.png">
+	<img src="img/gallery/evacropped.png" id="gallerypics"></a>
+
+	<a href="img/gallery/reina.png">	
+	<img src="img/gallery/reina.png" id="gallerypics"></a>
+
+
+	
+	</p><br>
+		
+		</div>
+		<br><br>
+	</form>
+	
+
+
+</div> 
+</div>
+	
+
+ 
+</body>	
+
+</html>
