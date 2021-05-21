@@ -279,4 +279,8 @@ table#tb1 th {
 
 }
 
+#crypto {
+	overflow-wrap: break-word ;
+	font-size: small ;
+}
 
