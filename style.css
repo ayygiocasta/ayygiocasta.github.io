@@ -157,7 +157,22 @@ audio { width: 592px}
 				padding-right:15px;
 				border-radius: 15px;
 			
-			}			
+			}
+
+#contentwider
+			{
+				width: 92%;
+				background: rgba(38,38,38,0.92);
+				margin-left:4%;
+				margin-right:4%
+				margin-top: 2%;
+				margin-bottom: 2%;
+				float: left;
+				padding-left: 15px;
+				padding-right:15px;
+				border-radius: 15px;
+			
+			}				
 
  
 
