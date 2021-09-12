@@ -109,18 +109,6 @@ p {
 }
     
     			  }
-audio { width: 592px}
-#radio
-			{
-					
-				background: rgba(0,4,24,0.87);				
-				padding-left: 4px;
-				padding-right: 4px;
-				padding-top:4px;
-				padding-bottom:1px;
-				border-radius:4px;
-			}
-
 			
 #contentparent
 			{
@@ -139,8 +127,7 @@ audio { width: 592px}
 				float: left;
 				padding-left: 15px;
 				padding-right:15px;
-				border-radius: 15px;
-			
+				border-radius: 15px;			
 			}
 			
 		
