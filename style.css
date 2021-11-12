@@ -22,7 +22,13 @@ background: url("img/bg.svg") repeat center center fixed;
     opacity: 1;
     z-index: -1;
     right: 0;
-  		}		
+  		}
+
+.sortable {
+	   border-spacing: 10px;
+	   font-size: 1.4em;
+}	
+		
 #gif { 
  
  	border: 4px solid #210215;	    
