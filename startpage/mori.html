@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+	<title>guh</title>
+	<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js">
+	</script>
+	<script type="text/javascript" src="script.js">
+	</script>
+	<script src="jquery.min.js"></script>
+	<script>
+		$(function(){
+			$('.fadein img:gt(0)').hide();
+			setInterval(function(){$('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein');}, 3000);
+		});
+	</script>
+	<style>
+	a {
+		border-radius: 5px;
+		color: #FFFFFF;
+		margin: 10px;
+		padding: 3px;
+		text-decoration: none;
+	}
+
+	a:hover {
+		background-color: #263238;
+	}
+
+	body {
+		background-color: #080808;
+		font-family: Arial, Helvetica, sans-serif;
+		margin: 40px auto;
+		max-width: 900px;
+	}
+	
+	th {
+	 text-align: left;
+	}	
+
+	#card {
+		background-color:#171924;
+		display: flex;
+		height: 285px;	
+	}
+
+	#content {
+		   margin: 10px;
+		   margin-left: 25px;
+	}
+
+	#title {
+		color: #FFFFFF;
+		font-size: 1.5em;
+		margin-bottom: 15px;	
+	}
+	
+	.fadein { 
+	position:relative; 
+	height:285px; 
+	}
+
+	.fadein img { 
+	position:absolute; 
+	left:0px; 
+	top:0; 
+	}
+	
+#gif { 
+	height: 285px;    
+}
+
+	</style>
+	
+</head>
+<body>
+    <div id="card">
+<img id="mori" src="mori.jpg">
+		<div id="content">
+			<div id="title">guh.</div>
+			<table>
+			<tbody>
+				<tr>
+					<th>Social</th>
+					<td><a href="https://twitter.com/home" target="_blank">twitter</a></td>
+				</tr>
+				<tr>
+					<th>daily</th>
+					<td><a href="https://mangadex.org/titles/feed" target="_blank">mango</a></td>
+					<td><a href="https://apod.nasa.gov/apod/" target="_blank">APOD</a></td>
+					<td><a href="https://www.youtube.com/feed/subscriptions" target="_blank">youtube</a></td>
+				</tr>
+				<tr>
+					<th>Finance</th>
+					<td><a href="https://boards.4channel.org/biz/" target="_blank">/biz/</a></td>
+					<td><a href="https://coinmarketcap.com/" target="_blank">CMC</a></td>
+					<td><a href="https://www.binance.com/en/trade/FTM_USDT?layout=basic&theme=dark&type=spot" target="_blank">Trade</a></td>
+				</tr>
+				<tr>
+					<th>Tech</th>
+					<td><a href="https://www.lainchan.org/" target="_blank">lain</a></td>
+					<td><a href="https://www.lainchan.org/%CE%BB/index.html" target="_blank">/λ/</a></td>
+					<td><a href="https://www.lainchan.org/%CE%A9/index.html" target="_blank">/Ω/</a></td>
+				</tr>
+				<tr>
+					<th>日本語</th>
+					<td><a href="https://itazuraneko.neocities.org/" target="_blank">学習</a></td>
+					<td><a href="https://jisho.org/" target="_blank">jisho</a></td>
+				</tr>
+				<tr>
+					<th>Updates</th>
+					<td><a href="https://rateyourmusic.com/" target="_blank">RYM</a></td>
+					<td><a href="https://anilist.co/home" target="_blank">anilist</a></td>
+				</tr>
+				<tr>
+					<th>Degen</th>
+					<td><a href="https://exhentai.org/" target="_blank">sadpanda</a></td>
+					<td><a href="http://board.kasumi.moe/koe/catalog.html" target="_blank">/koe/</a></td>
+					<td><a href="http://hvdb.me/" target="_blank">hvdb</a></td>
+				</tr>
+				<tr>
+					<th>etc</th>
+					<td><a href="https://soyjak.party/soy/catalog.html" target="_blank">/soy/</a></td>
+					<td><a href="https://boards.4channel.org/qa/catalog" target="_blank">/qa/</a></td>
+					<td><a href="https://boards.4channel.org/vr/catalog" target="_blank">/vr/</a></td>
+					<td><a href="https://boards.4channel.org/vt/catalog" target="_blank">/vt/</a></td>
+					<td><a href="https://cytu.be/" target="_blank">cytube</a></td>
+				</tr>
+			</tbody>
+			</table>
+			</div>
+    </div>
+<div id="coinmarketcap-widget-marquee" coins="1,1027,3513,1839,7219" currency="USD" theme="dark" transparent="false" show-symbol-logo="true"></div>
+</body>
+</html>
