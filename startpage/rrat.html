@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8"/>
-	<title>guh</title>
+	<title>rrat</title>
 	<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js">
 	</script>
 	<script type="text/javascript" src="script.js">
@@ -20,8 +20,10 @@
 		color: #FFFFFF;
 		margin: 10px;
 		padding: 3px;
+		font-size: 1.3em;
 		text-decoration: none;
 	}
+
 
 	a:hover {
 		background-color: #263238;
@@ -31,18 +33,19 @@
 		background-color: #080808;
 		font-family: Arial, Helvetica, sans-serif;
 		margin: 40px auto;
-		max-width: 650px;
+		max-width: 900px;
 	}
 	
 	th {
 	 text-align: left;
 	 color: #A5A5A5;
-
-	}	
+	 font-size: 1.3em;
+	}
+	
 	#card {
 		background-color:#171924;
 		display: flex;
-		height: 285px;	
+		height: 400px;	
 
 	}
 
@@ -51,24 +54,42 @@
 		   margin-left: 25px;
 	}
 
+div.brats {
+  position: relative;
+  bottom: 325px;
+  left: 523px;
+  width: 75px;
+}
+	#brat { 
+	margin-top: 11px;    
+	border-radius: 50%;   
+	margin-bottom: 11px;
+}
+
 	#title {
 		color: #FFFFFF;
-		font-size: 1.5em;
-		margin-bottom: 15px;	
+		font-size: 2.3em;
+		margin-bottom: 40px;	
 	}
 	
-	#mori {
-		max-height: 285px;
-		max-width: 142px;
+	#rat {
+		max-height: 400px;
+		max-width: 270px;
+	}
+	
+	#brat {
+		max-height: 75px;
 	}
 	</style>
 	
 </head>
 <body>
     <div id="card">
-<img id="mori" src="mori.jpg">
+	
+		<img id="rat" src="rrat.jpg">
 		<div id="content">
-			<div id="title">guh.</div>
+		<div id="title">ogey</div>
+		
 			<table>
 			<tbody>
 				<tr>
@@ -77,17 +98,17 @@
 				</tr>
 				<tr>
 					<th>daily</th>
-					<td><a href="https://mangadex.org/titles/feed" target="_blank">mango</a></td>
-					<td><a href="https://apod.nasa.gov/apod/" target="_blank">APOD</a></td>
 					<td><a href="https://www.youtube.com/feed/subscriptions" target="_blank">youtube</a></td>
+					<td><a href="https://mangadex.org/titles/feed" target="_blank">mango</a></td>
+					<td><a href="https://apod.nasa.gov/apod/" target="_blank">apod</a></td>
+					
 				</tr>
 				<tr>
 					<th>finance</th>
 					<td><a href="https://boards.4channel.org/biz/" target="_blank">/biz/</a></td>
-					<td><a href="https://coinmarketcap.com/" target="_blank">CMC</a></td>
+					<td><a href="https://coinmarketcap.com/" target="_blank">cmc</a></td>
 					<td><a href="https://www.binance.com/en/trade/FTM_USDT?layout=basic&theme=dark&type=spot" target="_blank">trade</a></td>
-					<td><a href="https://spookyswap.finance/" target="_blank">ss</a></td>
-					
+					<td><a href="https://app.spiritswap.finance/#/" target="_blank">ss</a></td>
 				</tr>
 				<tr>
 					<th>tech</th>
@@ -97,13 +118,13 @@
 				</tr>
 				<tr>
 					<th>日本語</th>
-					<td><a href="https://itazuraneko.neocities.org/" target="_blank">学習</a></td>
 					<td><a href="https://jisho.org/" target="_blank">jisho</a></td>
+					<td><a href="https://itazuraneko.neocities.org/" target="_blank">学習</a></td>
 				</tr>
 				<tr>
 					<th>updates</th>
-					<td><a href="https://rateyourmusic.com/" target="_blank">RYM</a></td>
 					<td><a href="https://anilist.co/home" target="_blank">anilist</a></td>
+					<td><a href="https://rateyourmusic.com/" target="_blank">rym</a></td>
 				</tr>
 				<tr>
 					<th>degen</th>
@@ -114,13 +135,18 @@
 				<tr>
 					<th>etc</th>
 					<td><a href="https://soyjak.party/soy/catalog.html" target="_blank">/soy/</a></td>
-					<td><a href="https://boards.4channel.org/qa/catalog" target="_blank">qway</a></td>
+					<td><a href="https://soyjak.party/qa/catalog.html" target="_blank">/qa/</a></td>
 					<td><a href="https://boards.4channel.org/vr/catalog" target="_blank">/vr/</a></td>
 					<td><a href="https://boards.4channel.org/vt/catalog" target="_blank">/vt/</a></td>
-					<td><a href="https://cytu.be/" target="_blank">cy</a></td>
 				</tr>
 			</tbody>
 			</table>
+				<div class="brats">
+				<img src="1.jpg" id="brat">
+				<img id="brat" src="2.jpg"> 
+				<img id="brat" src="3.jpg"> 
+				<img id="brat" src="4.jpg"></div>
+
 			</div>
     </div>
 <div id="coinmarketcap-widget-marquee" coins="1,1027,3513,1839,7219" currency="USD" theme="dark" transparent="false" show-symbol-logo="true"></div>
