@@ -2,6 +2,8 @@ body{font-family:monospace;color:#24b9c9; background-color:#000;
 background: url("img/bg.svg") repeat center center fixed;
                 background-size: 256px 336px;}
 
+
+
 		a:link, a:visited, a active {
 		    color: #ff0088;
 		    background-color: transparent;
@@ -14,10 +16,12 @@ background: url("img/bg.svg") repeat center center fixed;
 		    background-color: transparent;
 		    text-decoration: underline;
 		        }
-.jill 	{
+				
+				
+.hakotaro 	{
     position: fixed;
 //    max-width: 410px;
-    width: 15%;
+    width: 25%;
     bottom: 0;
     opacity: 1;
     z-index: -1;
