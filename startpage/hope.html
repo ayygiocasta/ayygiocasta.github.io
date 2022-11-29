@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+	<title>Hope 2.0</title>
+	<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js">
+	</script>
+	<script type="text/javascript" src="script.js">
+	</script>
+	<script src="jquery.min.js"></script>
+	<script>
+		$(function(){
+			$('.fadein img:gt(0)').hide();
+			setInterval(function(){$('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein');}, 3000);
+		});
+		
+		
+	</script>
+	<style>
+	a {
+		border-radius: 5px;
+		color: #FFFFFF;
+		margin: 10px;
+		padding: 3px;
+		font-size: 1.3em;
+		text-decoration: none;
+	}
+	
+	a:hover {
+		background-color: #364750;
+	}
+	
+	.avis {
+		border-radius: 0px;
+		color: #FFFFFF;
+		margin: 0px;
+		padding: 0px;
+		text-decoration: none;
+		background-color: transparent;
+	}
+	.avis:hover {
+		background-color: transparent;
+	}
+
+	html {
+	height:100%;
+	}
+
+	body {
+		background: rgb(73,6,80);
+		background: linear-gradient(0deg, rgba(27,2,29,1) 0%, rgba(0,0,0,1) 100%); 
+		font-family: Arial, Helvetica, sans-serif;
+		min-height:100%;
+		margin: 40px auto;
+		max-width: 900px;
+		background-attachment: fixed;
+		background-size: cover;
+		
+	}
+	
+	th {
+	 text-align: left;
+	 width: 100px;
+	 color: #A5A5A5;
+	 font-size: 1.3em;
+	}
+	
+	
+	#card {
+		background-color:#171924;
+		display: flex;
+		height: 400px;
+		margin-top: 20%; 
+		border-radius: 35px 35px 0px 0px;   
+
+
+	}
+
+	#content {
+		   margin: 10px;
+		   margin-left: 25px;
+	}
+
+	div.icons {
+		position: relative;
+		bottom: 95%;
+		left: 518px;
+		width: 75px;
+	}
+	
+	#icon { 
+	margin-top: 8px;    
+	border-radius: 50%;   
+	margin-bottom: 8px;
+	border: 2px solid #b2265f;
+}
+
+	h1 {
+		color: #FFFFFF;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		text-shadow: -2px -2px 0 #b2265f, 2px -2px 0 #b2265f, -2px 2px 0 #b2265f, 2px 2px 0 #b2265f;
+	}
+	
+	
+	#portrait {
+		max-height: 400px;
+		max-width: 270px;
+		border-radius: 35px 0px 0px 0px;
+		border: 3px solid #b2265f;
+	}
+	
+	#icon {
+		max-height: 75px;
+	}
+	
+	</style>
+	
+</head>
+<body>
+    <div id="card">
+		<img id="portrait" src="hope.gif">
+		<div id="content">
+		<h1>
+			<a href="" class="typewrite" data-period="2000" data-type='[ "HiRyS..", "..it&#39s IRyS..!! &#128142", ":]" ]'>
+				<span class="wrap"></span>
+			</a>
+		</h1>
+			<table>
+			<tbody>
+				<tr>
+					<th>social</th>
+					<td><a href="https://twitter.com/home" target="_blank">twitter</a></td>
+				</tr>
+				<tr>
+					<th>daily</th>
+					<td><a href="https://www.youtube.com/feed/subscriptions" target="_blank">youtube</a></td>
+					<td><a href="https://mangadex.org/titles/feed" target="_blank">mango</a></td>
+					<td><a href="https://apod.nasa.gov/apod/" target="_blank">apod</a></td>
+				</tr>
+				<tr>
+					<th>finance</th>
+					<td><a href="https://boards.4channel.org/biz/" target="_blank">/biz/</a></td>
+					<td><a href="https://coinmarketcap.com/" target="_blank">cmc</a></td>
+					<td><a href="https://www.binance.com/en/trade/FTM_USDT?layout=basic&theme=dark&type=spot" target="_blank">trade</a></td>
+					<td><a href="https://app.spiritswap.finance/#/" target="_blank">ss</a></td>
+				</tr>
+				<tr>
+					<th>tech</th>
+					<td><a href="https://www.lainchan.org/" target="_blank">lain</a></td>
+					<td><a href="https://www.lainchan.org/%CE%BB/index.html" target="_blank">/λ/</a></td>
+					<td><a href="https://www.lainchan.org/%CE%A9/index.html" target="_blank">/Ω/</a></td>
+				</tr>
+				<tr>
+					<th>日本語</th>
+					<td><a href="https://jisho.org/" target="_blank">jisho</a></td>
+					<td><a href="https://itazuraneko.neocities.org/" target="_blank">学習</a></td>
+				</tr>
+				<tr>
+					<th>updates</th>
+					<td><a href="https://anilist.co/home" target="_blank">anilist</a></td>
+					<td><a href="https://rateyourmusic.com/" target="_blank">rym</a></td>
+				</tr>
+				<tr>
+					<th>degen</th>
+					<td><a href="https://exhentai.org/" target="_blank">sadpanda</a></td>
+					<td><a href="http://board.kasumi.moe/koe/catalog.html" target="_blank">/koe/</a></td>
+					<td><a href="http://hvdb.me/" target="_blank">hvdb</a></td>
+					<td><a href="https://ecchi.iwara.tv/" target="_blank">iwara</a></td>
+				</tr>
+				<tr>
+					<th>etc</th>
+					<td><a href="https://boards.4channel.org/vr/catalog" target="_blank">/vr/</a></td>
+					<td><a href="https://boards.4channel.org/vt/catalog" target="_blank">/vt/</a></td>
+				<tr>
+				</tr>
+					<th>$$</th>
+					<td><a href="https://reverb.com/" target="_blank">reverb</a></td>
+					<td><a href="https://www.ebay.it/" target="_blank">ebay</a></td>
+					<td><a href="https://www.thomann.de/gb/index.html" target="_blank">thomann</a></td>
+				</tr>
+
+			</tbody>
+			</table>
+				<div class="icons">
+				<a class="avis" href="https://twitter.com/irys_en"><img src="1.jpg" id="icon"></a>
+				<a class="avis" href="https://www.youtube.com/channel/UC8rcEBzJSleTkf_-agPM20g"><img id="icon" src="2.jpg"></a>
+				<a class="avis" href="https://twitter.com/search?q=%23%E3%83%99%E3%83%BC%E3%82%A2%E3%83%BC%E3%83%88&src=hashtag_click"><img id="icon" src="3.jpg"></a>
+				<a class="avis" href="https://i.miss.irys.moe/"><img id="icon" src="4.jpg"></a></div>
+
+			</div>
+    </div>
+<div id="coinmarketcap-widget-marquee" coins="1,1027,3513,1839,7219" currency="USD" theme="dark" transparent="false" show-symbol-logo="true"></div>
+
+</body>
+</html>
