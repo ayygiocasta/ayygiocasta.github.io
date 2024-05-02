@@ -17,7 +17,6 @@ background: url("img/spacegif.gif");
 		    text-decoration: underline;
 				}
 
-	
 		a:hover {
 		    color: #f7f9fb;
 		    background-color: transparent;
@@ -46,6 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 .sortable {
 	   border-spacing: 10px;
 	   font-size: 18px;
+	   text-align: center;
 }	
 		
 #gif { 
@@ -115,9 +115,6 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: 3px 3px black;
 }
 
-
-
-
 p {
     margin-top: 0;
     padding-right: 15px;
@@ -152,7 +149,7 @@ p {
 #contentwide
 			{
 				width: 60%;
-				background: rgba(28,28,38,0.72);
+				background: rgba(3,3,3,0.92);
 				margin-left:20%;
 				margin-right:20%
 				margin-top: 2%;
@@ -167,6 +164,20 @@ p {
 #contentwider
 			{
 				width: 92%;
+				background: rgba(28,28,38,0.72);
+				margin-left:4%;
+				margin-right:4%
+				margin-top: 2%;
+				margin-bottom: 2%;
+				float: left;
+				padding-left: 15px;
+				padding-right:15px;
+				border-radius: 15px;
+			
+			}				
+#contentwider2
+			{
+				width: 82%;
 				background: rgba(28,28,38,0.72);
 				margin-left:4%;
 				margin-right:4%
@@ -288,4 +299,5 @@ table#tb1 th {
 	overflow-wrap: break-word ;
 	font-size: small ;
 }
+
 
